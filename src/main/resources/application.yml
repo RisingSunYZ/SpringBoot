@@ -1,0 +1,40 @@
+#person:
+#  name: yangzhao
+#  favorite: "basektball\n is my "
+#  hate: 'who is \n my hate'
+#  birth: 2017/10/10
+##  age: ${random.int}
+##  address:
+##    - heilongjiang
+##    - anhui
+##    - zhejiang
+#  address: [heilongjian,zj,ah]
+#  childrens:
+#    son: zzz
+#    gitl: yyy
+##  dog:
+##    name: xiaogou
+##    age: ${random.int}
+##  dog: {name: person.test:hello,age: 2}
+
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+
+#---
+#
+#server:
+#  port: 8081
+#spring:
+#  profiles: dev
+#
+#---
+#server:
+#  port: 8082
+#
+#
+#spring:
+#  profiles: prod
